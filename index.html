@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <base href="."/>
+    <head>
+        <script src="./http-js.js" type="text/javascript"></script>
+    </head>
+    <body>
+
+        <script>
+            
+            http.get({
+                url: 'https://jsonplaceholder.typicode.com/posts'
+            }, (res, statusCode) => {
+                
+                console.log('completed')
+            })
+
+            http.json({
+                url: 'https://jsonplaceholder.typicode.com/posts/1'
+            }, (res, statusCode) => {
+                
+                console.log('completed')
+            })
+
+              
+        </script>
+
+    </body>
+</html>

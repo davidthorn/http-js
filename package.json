@@ -1,0 +1,19 @@
+{
+  "name": "http-js",
+  "version": "1.0.0",
+  "description": "A javascript module which assist with making XMLHttpRequests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidthorn/http-js.git"
+  },
+  "author": "David Thorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidthorn/http-js/issues"
+  },
+  "homepage": "https://github.com/davidthorn/http-js#readme"
+}
