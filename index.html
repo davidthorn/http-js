@@ -1,29 +1,21 @@
 <!DOCTYPE html>
 <html>
-    <base href="."/>
     <head>
+        <base href=".">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <!-- COMMON TAGS -->
+        
+        <!-- COMMON TAGS -->
+        <meta charset="utf-8">
+        <title>HTTP JS - David Thorn</title>
+        <!-- Search Engine -->
         <script src="./http-js.js" type="text/javascript"></script>
     </head>
     <body>
+        <h1>HTTP JS - David Thorn</h1>
 
-        <script>
-            
-            http.get({
-                url: 'https://jsonplaceholder.typicode.com/posts'
-            }, (res, statusCode) => {
-                
-                console.log('completed')
-            })
-
-            http.json({
-                url: 'https://jsonplaceholder.typicode.com/posts/1'
-            }, (res, statusCode) => {
-                
-                console.log('completed')
-            })
-
-              
-        </script>
-
+        <p>Please refer to the github page for this library at:</p>
+        <a href="https://github.com/davidthorn/http-js">link</a>
+        
     </body>
 </html>
