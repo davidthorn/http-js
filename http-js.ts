@@ -8,7 +8,19 @@ type HttpJSRequestOptions = {
 }
 
 type HttpJSRequest = {
+
+    /**
+     * The options originally provided for this url
+     *
+     * @type {HttpJSRequestOptions}
+     */
     options: HttpJSRequestOptions
+
+    /**
+     * The completion handler which you should be executed once the request has returned a response or aborted
+     *
+     * @type {HttpRequestCompletionHandler}
+     */
     handler: HttpRequestCompletionHandler
 }
 
